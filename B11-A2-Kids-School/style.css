@@ -232,9 +232,9 @@
   max-width: 1160px;
   padding-top: 123px;
   padding-bottom: 123px;
-  padding-left:  ;
+  /* padding-left:  ; */
   margin: auto;
-  border: 1px solid black;
+  /* border: 1px solid black; */
   /* background-color: skyblue; */
   color: white;
   
