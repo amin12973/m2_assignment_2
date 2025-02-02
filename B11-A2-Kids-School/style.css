@@ -72,6 +72,7 @@
   /* height না দিয়ে margin দিচ্ছি */
   margin: 122px 0px;
   /* border: 1px solid red; */
+  
 }
 
 .Empowering {
@@ -155,6 +156,7 @@
   /* border: 1px solid red; */
   padding: 52px 40px;
   background-color: rgb(222, 245, 255);
+  border-radius: 12px;
 
 
   /*figma dev mode থেকে copy paste */
