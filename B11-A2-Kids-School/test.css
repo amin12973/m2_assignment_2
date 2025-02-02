@@ -1,0 +1,141 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.display-flex,
+.banner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.container {
+  border: 1px solid black;
+  width: 100%;
+  max-width: 1160px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+/* desktop-nav start */
+.nav-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+
+.nav-content ul {
+  display: flex;
+  justify-content: space-between;
+  gap: 32px;
+}
+
+.nav-content li {
+  list-style: none;
+}
+
+.nav-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.nav-btn {
+  width: 179px;
+  height: 62px;
+  color: rgb(255, 255, 255);
+  background-color: orange;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+.fa-solid {
+  display: none;
+}
+
+/* desktop-nav end */
+
+.banner-container {
+  max-width: 640px;
+  margin: 122px 0;
+  border: 1px solid red;
+}
+
+.Empowering {
+  color: rgb(254, 163, 1);
+}
+
+.towards {
+  color: rgb(1, 172, 253);
+}
+
+.banner-btn {
+  background-color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.banner-title,
+.banner-description {
+  margin-bottom: 24px;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-size: 56px;
+}
+
+.banner-description {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.banner-img {
+  max-width: 100%;
+}
+
+/* mobile-nav */
+@media screen and (max-width: 576px) {
+  .container {
+    max-width: 100%;
+    padding: 12px 16px;
+  }
+
+  .nav-content,
+  .nav-btn{
+    display: none;
+  }
+
+  .fa-solid {
+    display: block;
+  }
+
+  .banner {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .banner-container {
+    margin: 50px 0;
+  }
+
+  .banner-title {
+    font-size: 2rem;
+  }
+
+  .banner-description {
+    font-size: 1rem;
+  }
+}

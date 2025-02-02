@@ -1,0 +1,440 @@
+@import url("https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap");
+
+.quicksand-normal {
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.display-flex,
+.banner {
+  display: flex;
+  align-items: center;
+  /* এটা nav এ সবার মধ্যেই আছে */
+  /* border: 1px solid red; */
+  justify-content: space-between;
+}
+/* এটাই সব container কে মাঝামঝি রাখছে। */
+.container {
+  /* border: 1px solid black; */
+  /* nav-width */
+  width: 1160px;
+  margin: 0 auto;
+}
+/* desktop-nav start  */
+.nav-margin{
+  margin-top: 20px;
+}
+.nav-title {
+  font-weight: 700;
+  font-size: 2rem;
+}
+/* nav unlist */
+.nav-content ul {
+  justify-content: space-between;
+  gap: 32px;
+}
+.nav-content li {
+  list-style: none;
+}
+.nav-content a {
+  text-decoration: none;
+  color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+/* nav unlist close */
+
+.nav-btn {
+  width: 179px;
+  height: 62px;
+  color: rgb(255, 255, 255);
+  background-color: orange;
+  border: none;
+  border-radius: 12px;
+  font-weight: 700;
+}
+
+/* menu icon */
+.fa-solid {
+  display: none;
+}
+
+/* desktop-nav end */
+
+.banner-container {
+  max-width: 640px;
+  /* height না দিয়ে margin দিচ্ছি */
+  margin: 122px 0px;
+  /* border: 1px solid red; */
+}
+
+.Empowering {
+  color: rgb(254, 163, 1);
+}
+
+.towards {
+  color: rgb(1, 172, 253);
+}
+.banner-btn {
+  background-color: black;
+  font-size: 1.25rem;
+  font-weight: 700;
+}
+
+.banner-title,
+.banner-description {
+  margin-bottom: 24px;
+}
+.banner-title {
+  font-size: 3rem;
+  font-size: 56px;
+}
+.banner-description {
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+.banner-img {
+  max-width: 100%;
+}
+
+/* header end */
+
+/* main start */
+.bg-img {
+  background-image: url("assets/bg.png");
+  flex-direction: column;
+  max-width: 100%;
+
+  gap: 80px;
+  /* border: 1px solid red; */
+}
+.main-title,
+.main-btn {
+  margin: 60px auto;
+}
+.main-title {
+  font-size: 57.5px;
+  font-weight: 700;
+}
+/* main button */
+.main-btn-1 {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  border: none;
+  background-color: orange;
+  color: white;
+  font-size: 24px;
+  font-weight: 900;
+}
+
+/* card start */
+.card-container {
+  width: 1159.8px;
+  /* border: 1px solid black; */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 28.2px;
+    margin: 0 auto;
+}
+
+.card {
+  /* width: 367.8px; */
+  height: 476.78px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  padding: 52px 40px;
+  background-color: rgb(222, 245, 255);
+
+
+  /*figma dev mode থেকে copy paste */
+}
+.card-title {
+  font-size: 24px;
+  font-weight: 700;
+}
+.card-paragraph {
+  font-size: 15.09px;
+  font-weight: 500;
+}
+
+/* gradient */
+.card-1 {
+  background: linear-gradient(
+      180deg,
+      rgb(222, 245, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  font-size: 15.09px;
+}
+
+.card-2 {
+  background: linear-gradient(
+      180deg,
+      rgb(255, 244, 220),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  font-size: 15.09px;
+}
+
+.card-3 {
+  background: linear-gradient(
+      180deg,
+      rgb(238, 225, 255),
+      rgba(255, 255, 255, 0) 40%
+    ),
+    rgb(255, 255, 255);
+  font-size: 15.09px;
+}
+
+/* card-btn */
+.card-btn {
+  font-size: 15.09px;
+  font-weight: 700;
+  border: none;
+  background-color: white;
+}
+
+/* btn */
+.btn-1 {
+  color: rgb(100, 200, 255);
+}
+
+.btn-2 {
+  color: rgb(240, 170, 0);
+}
+
+.btn-3 {
+  color: rgb(135, 0, 255);
+}
+
+/* footer */
+.footer-color{
+  background-color: skyblue;
+}
+.footer-section {
+  display: flex;
+  justify-content: space-between;
+  max-width: 1160px;
+  padding-top: 123px;
+  padding-bottom: 123px;
+  padding-left:  ;
+  margin: auto;
+  border: 1px solid black;
+  /* background-color: skyblue; */
+  color: white;
+  
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  font-size: 42.14px;
+}
+
+.footer-description {
+  width: 399.02px;
+  margin-top: 22px;
+}
+.footer-ul li {
+  list-style: none;
+}
+.footer-ul a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+.footer-title-2,
+.footer-title-3 {
+  font-size: 24px;
+  margin-bottom: 32px;
+}
+
+.main-story {
+  background-image: url("assets/bg.png"),
+    linear-gradient(0deg, rgba(254, 163, 1, 0.3), rgba(255, 255, 255, 0.3) 100%);
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 60px 0px;
+  margin: 0 auto;
+  /* border: 1px solid rgb(250, 7, 7); */
+}
+
+.box-all {
+  border-radius: 16px;
+  background-color: rgb(255, 255, 255);
+
+  /* padding: 20px; */
+}
+.img-border {
+  border-top-left-radius: 16px;
+  border-top-right-radius: 16px;
+  width: 100%;
+}
+.story-title,
+.story-description,
+.box-2-title {
+  padding: 20px;
+}
+/* .main-story{
+      display: flex;
+      
+      gap: 19px;
+} */
+
+.story-container {
+  max-width: 1160px;
+  display: flex;
+  margin: 80px auto;
+  gap: 19px;
+}
+.box-4-container {
+  display: grid;
+  grid-template-columns: repeat(2, 290.69px);
+  gap: 19px;
+}
+
+.story-btn {
+  width: 197px;
+  height: 50px;
+  background-color: black;
+  color: white;
+  border: none;
+  border-radius: 12px;
+}
+
+/* mobile responsive */
+@media screen and (max-width: 576px) {
+  /* container */
+  .container {
+    max-width: 358px;
+    border: none;
+    /* padding: 12px 16px; */
+    margin:  auto;
+    /* border: 1px solid blue; */
+  }
+
+  /* mobile-nav */
+  .nav-content,
+  .nav-title,
+  .nav-btn {
+    display: none;
+  }
+
+  /* menu */
+  .fa-solid {
+    display: block;
+  }
+  /* mobile-nav */
+
+  /* banner start */
+  /* chatgpt থেকে নিছি আমার ধারণা ছিল container tag use করলেই হবে তবে এখানে banner tag দিয়েছিলাম আলাদা করে findout করতে শুধু flex direction দিয়েছিলাম যা নিবে না কারণ এর আগে banner এ কোন display: flex দেয়া ছিল না। তাই flex-box class এর সাথে banner class add করে দিয়েছি। */
+  .banner {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    justify-content: center;
+    margin:  auto;
+  }
+  .banner-container {
+    text-align: center;
+  }
+  /* banner end */
+
+  /* main start */
+
+  .main-mobile,
+  .card-container {
+    /* width: 100%; */
+    max-width: 357px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+  }
+
+  .main-btn {
+    display: none;
+  }
+
+  .footer-description {
+    max-width: 357px;
+  }
+  .footer-title-1 {
+    font-size: 35.73px;
+  }
+  .footer-title-2,
+  .footer-title-3 {
+    font-size: 20.35px;
+  
+  }
+
+  .footer-description {
+    font-size: 16.96px;
+    
+  }
+.footer-color{
+  /* display: none; */
+  max-width: 357px;
+  margin: auto;
+}
+  .footer-section {
+    flex-direction: column;
+    max-width: 357px;
+    margin: auto;
+    justify-content: center;
+    gap: 32px;
+    background-color: skyblue;
+    padding-left: 6px;
+    padding-right: 6px;
+    /*  */
+    box-sizing: border-box;
+  }
+
+  .main-story {
+    width: 357px;
+    margin: auto;
+    /* border: 1px solid black; */
+  }
+
+  .box-2-title{
+    font-size: 9.13px;
+  }
+  .box-1-container {
+    display: none;
+  }
+
+  .story-container {
+    flex-direction: column;
+    margin: 11px auto;
+  
+  
+  }
+  .story-btn{
+    margin-top: 20px;
+  }
+  .box-2-container {
+    max-width: 170.35px;
+  }
+  .box-4-container {
+    grid-template-columns: repeat(2, 170px);
+    gap: 5px;
+    margin: 0 auto;
+  }
+}
